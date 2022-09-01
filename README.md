@@ -1,0 +1,1 @@
+If someone posts a message containing the words "platform" and "access," automatically ask if they're asking about access to the alumni platform and give them the support email address.
