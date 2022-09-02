@@ -16,7 +16,10 @@ client.on("messageCreate", msg => {
   if(msg.author.bot) return;
   
   const msgLC = msg.content.toLowerCase();
-  if(msgLC.includes("access") && msgLC.includes("platform")){
+  if(
+    msgLC.includes("access") && msgLC.includes("platform")
+    || msgLC.includes("alumni pass")
+  ){
     msg.reply(
       "Are you asking about alumni access to the platform?  If so, try reaching out to support.codingdojo.com"
     ).catch(error => console.log(error));
